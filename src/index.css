@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&family=Xanh+Mono:ital@1&display=swap');
+
+body{
+    color: #aaa !important;
+    background-color: #272b30 !important;
+}
+
+
+.content{
+    background-color: #32383e;
+        text-shadow: -1px -1px 0 rgb(0 0 0 / 30%);
+        margin-top: 7rem;
+}
+.line{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+.content p{
+    color: gray;
+}
+.icon img{
+    width: 40%;
+}
+.icon{
+    font-family: 'Xanh Mono', monospace;
+    width: 14%;
+}
+.nav-z{
+    z-index: 999;
+}
+
+
+.home{
+    background-image: url("/src/components/img/img2.png");
+    background-position: center ;
+    background-size: cover;
+    
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    color:inherit;
+}
+.game{
+    background-color: #32383e ;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.game:hover{
+    transform: scale(1.03);
+
+}
+
+.game h4{
+    font-size: 1.2rem;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.511);
+    background-position: center center;
+    height: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: #aaa !important;
+}
+
+
+
+.all{
+    padding-top: 5rem;
+}
+
+
+
+.details{
+    padding-top: 9rem;
+}
